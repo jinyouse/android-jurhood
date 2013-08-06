@@ -1,0 +1,374 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framelayout_container"
+    tools:context=".AppStart" >
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="100px"
+        android:layout_gravity="left|top"
+        android:tag="fw-fh-glt-st">
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="636px"
+                android:background="@drawable/bg_ca_panel1_640x636"
+                android:tag="fw-sh">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="374px"
+                    android:layout_marginTop="50px"
+                    android:layout_gravity="left|top"
+                    android:tag="fw-sh-st-glt"
+                    android:background="@drawable/bg_large_photo_640x374"
+                    android:id="@+id/imageview_coverphoto" />
+                
+                <ImageView
+                    android:layout_width="181px"
+                    android:layout_height="181px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginTop="300px"
+                    android:layout_gravity="left|top"
+                    android:tag="sw-sh-st-glt-sl"
+                    android:background="@drawable/bg_profile_photo_181x181"
+                    android:id="@+id/imageview_profilephoto" />
+                
+                <ImageButton
+                    android:layout_width="303px"
+                    android:layout_height="73px"
+                    android:layout_marginLeft="12px"
+                    android:layout_marginTop="520px"
+                    android:layout_gravity="left|top"
+                    android:tag="sw-sh-st-glt-sl"
+                    android:background="@drawable/btn_profile_photo_303x73"
+                    android:id="@+id/imagebutton_profilephoto" />
+                
+                <ImageButton
+                    android:layout_width="303px"
+                    android:layout_height="73px"
+                    android:layout_marginLeft="333px"
+                    android:layout_marginTop="520px"
+                    android:layout_gravity="left|top"
+                    android:tag="sw-sh-st-glt-sl"
+                    android:background="@drawable/btn_cover_photo_303x73"
+                    android:id="@+id/imagebutton_profilephoto" />
+            </FrameLayout>
+            
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="456px"
+                android:background="@drawable/bg_ca_panel2_640x456"
+                android:tag="fw-sh">
+                
+                <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:tag="ww_wh_sfont_glt-sl-st"
+		            android:layout_marginLeft="15px"
+		            android:layout_marginTop="44px"
+		            android:layout_gravity="left|top"
+		            android:id="@+id/textview_note_1"
+		            android:textColor="#8fbcdb"
+		            android:textSize="38px"
+		            android:text="Dine Profil ikoner" />
+                
+                <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:tag="ww_wh_sfont_glt-sl-st"
+		            android:layout_marginLeft="15px"
+		            android:layout_marginTop="100px"
+		            android:layout_gravity="left|top"
+		            android:id="@+id/textview_note_2"
+		            android:textColor="@android:color/white"
+		            android:textSize="34px"
+		            android:text="@string/createaccount_note_for_icon" />
+                
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="fw-wh-sl-st-glt"
+                    android:layout_gravity="left|top"
+                    android:layout_marginTop="250px"
+                    >
+                    <ImageButton
+                        android:layout_width="125px"
+                        android:layout_height="156px"
+                        android:tag="sw-sh"
+                        android:id="@+id/imagebutton_venner"
+                        android:background="@drawable/btn_selector_ca_venner" />
+                    
+                    <ImageButton
+                        android:layout_width="125px"
+                        android:layout_height="156px"
+                        android:tag="sw-sh-sl"
+                        android:layout_marginLeft="4px"
+                        android:id="@+id/imagebutton_networking"
+                        android:background="@drawable/btn_selector_ca_networking" />
+                    
+                    <ImageButton
+                        android:layout_width="125px"
+                        android:layout_height="156px"
+                        android:tag="sw-sh-sl"
+                        android:layout_marginLeft="4px"
+                        android:id="@+id/imagebutton_dating"
+                        android:background="@drawable/btn_selector_ca_date" />
+                    
+                    <ImageButton
+                        android:layout_width="125px"
+                        android:layout_height="156px"
+                        android:tag="sw-sh-sl"
+                        android:layout_marginLeft="4px"
+                        android:id="@+id/imagebutton_fritid"
+                        android:background="@drawable/btn_selector_ca_fritid" />
+                    
+                    <ImageButton
+                        android:layout_width="125px"
+                        android:layout_height="156px"
+                        android:tag="sw-sh-sl"
+                        android:layout_marginLeft="4px"
+                        android:id="@+id/imagebutton_business"
+                        android:background="@drawable/btn_selector_ca_business" />
+                </LinearLayout>
+            </FrameLayout>
+            
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="326px"
+                android:background="@drawable/bg_ca_panel3_640x326"
+                android:tag="fw-sh">
+                <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:tag="ww_wh_sfont_glt-sl-st"
+		            android:layout_marginLeft="15px"
+		            android:layout_marginTop="5px"
+		            android:layout_gravity="left|top"
+		            android:id="@+id/textview_note_3"
+		            android:textColor="#8fbcdb"
+		            android:textSize="38px"
+		            android:text="Jurhood kontoinformationer" />
+                
+                <EditText
+			        android:layout_width="630px"
+			        android:layout_height="80px"
+			        android:tag="sw-sh-sl-st-glt-sfont"
+			        android:layout_gravity="left|top"
+			        android:layout_marginLeft="5px"
+			        android:layout_marginTop="55px"
+			        android:background="@drawable/bg_textfield_630x80"
+			        android:id="@+id/edittext_first_name"
+			        android:hint="Fornavn"
+			        android:textColor="@android:color/black"
+			        android:textSize="34px" />
+                <EditText
+			        android:layout_width="630px"
+			        android:layout_height="80px"
+			        android:tag="sw-sh-sl-st-glt-sfont"
+			        android:layout_gravity="left|top"
+			        android:layout_marginLeft="5px"
+			        android:layout_marginTop="145px"
+			        android:background="@drawable/bg_textfield_630x80"
+			        android:id="@+id/edittext_first_name"
+			        android:hint="Mellemnavn"
+			        android:textColor="@android:color/black"
+			        android:textSize="34px" />
+                <EditText
+			        android:layout_width="630px"
+			        android:layout_height="80px"
+			        android:tag="sw-sh-sl-st-glt-sfont"
+			        android:layout_gravity="left|top"
+			        android:layout_marginLeft="5px"
+			        android:layout_marginTop="235px"
+			        android:background="@drawable/bg_textfield_630x80"
+			        android:id="@+id/edittext_first_name"
+			        android:hint="Efternavn"
+			        android:textColor="@android:color/black"
+			        android:textSize="34px" />
+            </FrameLayout>
+            
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="370px"
+                android:background="@drawable/bg_ca_panel4_640x370"
+                android:tag="fw-sh">
+                
+                <EditText
+			        android:layout_width="630px"
+			        android:layout_height="80px"
+			        android:tag="sw-sh-sl-st-glt-sfont"
+			        android:layout_gravity="left|top"
+			        android:layout_marginLeft="5px"
+			        android:layout_marginTop="30px"
+			        android:background="@drawable/bg_textfield_630x80"
+			        android:id="@+id/edittext_first_name"
+			        android:hint="E-mail adresse"
+			        android:textColor="@android:color/black"
+			        android:textSize="34px" />
+                <EditText
+			        android:layout_width="630px"
+			        android:layout_height="80px"
+			        android:tag="sw-sh-sl-st-glt-sfont"
+			        android:layout_gravity="left|top"
+			        android:layout_marginLeft="5px"
+			        android:layout_marginTop="140px"
+			        android:background="@drawable/bg_textfield_630x80"
+			        android:id="@+id/edittext_first_name"
+			        android:hint="Password"
+			        android:textColor="@android:color/black"
+			        android:textSize="34px" />
+                <EditText
+			        android:layout_width="630px"
+			        android:layout_height="80px"
+			        android:tag="sw-sh-sl-st-glt-sfont"
+			        android:layout_gravity="left|top"
+			        android:layout_marginLeft="5px"
+			        android:layout_marginTop="250px"
+			        android:background="@drawable/bg_textfield_630x80"
+			        android:id="@+id/edittext_first_name"
+			        android:hint="Bekræft password"
+			        android:textColor="@android:color/black"
+			        android:textSize="34px" />
+                
+            </FrameLayout>
+            
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="220px"
+                android:background="@drawable/bg_ca_panel5_640x220"
+                android:tag="fw-sh">
+                <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:tag="ww_wh_sfont_glt-sl-st"
+		            android:layout_marginLeft="15px"
+		            android:layout_marginTop="25px"
+		            android:layout_gravity="left|top"
+		            android:id="@+id/textview_note_4"
+		            android:textColor="#8fbcdb"
+		            android:textSize="38px"
+		            android:text="Hvad er dit køn" />
+                
+                <ImageButton
+                        android:layout_width="103px"
+                        android:layout_height="72px"
+                        android:tag="sw-sh-sl-glt-st"
+                        android:layout_marginLeft="8px"
+                        android:layout_marginTop="100px"
+                        android:layout_gravity="left|top"
+                        android:id="@+id/imagebutton_gender_female"
+                        android:background="@drawable/btn_selector_ca_female" />
+                <ImageButton
+                        android:layout_width="103px"
+                        android:layout_height="72px"
+                        android:tag="sw-sh-sl-glt-st"
+                        android:layout_gravity="left|top"
+                        android:layout_marginLeft="112px"
+                        android:layout_marginTop="100px"
+                        android:id="@+id/imagebutton_gender_male"
+                        android:background="@drawable/btn_selector_ca_male" />
+            </FrameLayout>
+            
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="236px"
+                android:background="@drawable/bg_ca_panel6_640x236"
+                android:tag="fw-sh">
+                
+                <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:tag="ww_wh_sfont_glt-sl-st"
+		            android:layout_marginLeft="15px"
+		            android:layout_marginTop="25px"
+		            android:layout_gravity="left|top"
+		            android:id="@+id/textview_note_5"
+		            android:textColor="#8fbcdb"
+		            android:textSize="38px"
+		            android:text="Indtast din fødselsdag" />
+                
+                <EditText
+			        android:layout_width="630px"
+			        android:layout_height="80px"
+			        android:tag="sw-sh-sl-st-glt-sfont"
+			        android:layout_gravity="left|top"
+			        android:layout_marginLeft="5px"
+			        android:layout_marginTop="100px"
+			        android:background="@drawable/bg_textfield_630x80"
+			        android:id="@+id/edittext_birthday"
+			        android:hint="Indtast din fødselsdag"
+			        android:textColor="@android:color/black"
+			        android:textSize="34px" />
+                
+            </FrameLayout>
+            
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="236px"
+                android:background="@drawable/bg_ca_panel6_640x236"
+                android:tag="fw-sh">
+                <ImageButton
+			        android:layout_width="43px"
+			        android:layout_height="43px"
+			        android:layout_marginLeft="10px"
+			        android:layout_marginTop="30px"
+			        android:layout_gravity="left|top"
+			        android:tag="sw-sh-sl-st-glt"
+			        android:id="@+id/imagebutton_save_login"
+			        android:background="@drawable/btn_selector_check" />
+			    
+			    <TextView
+			            android:layout_width="520px"
+			            android:layout_height="wrap_content"
+			            android:tag="sw_wh_sfont_glt_sl_st"
+			            android:layout_marginLeft="70px"
+			            android:layout_marginTop="30px"
+			            android:layout_gravity="left|top"
+			            android:id="@+id/textview_privacy"
+			            android:textColor="@android:color/white"
+			            android:textSize="34px"
+			            android:text="@string/privacy_note" />
+            </FrameLayout>
+		</LinearLayout>
+    </ScrollView>
+    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:background="@drawable/bg_topheader_640x100"
+        android:tag = "fw_sh">
+        
+        <ImageButton
+            android:layout_width="88px"
+            android:layout_height="100px"
+            android:layout_gravity="left|top"
+            android:tag="sw_sh_glt"
+            android:id="@+id/imagebutton_back"
+            android:background="@drawable/btn_back_88x100" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="ww_wh_sfont_gc"
+            android:layout_gravity="center"
+            android:id="@+id/textview_signup_title"
+            android:textColor="@android:color/white"
+            android:textSize="38px"
+            android:text="Opret Ny Profil" />
+        
+        <ImageButton
+            android:layout_width="88px"
+            android:layout_height="100px"
+            android:layout_gravity="right|top"
+            android:tag="sw_sh_grt"
+            android:background="@drawable/btn_done_88x100" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jurhood</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="createaccount_note_for_icon">Marker dine profil ikoner, og vis dermed andre personer, hvad du har interesse i, oghvad dunsker kontaktes om.</string>
+    <string name="privacy_note">Jeg erklærer herved at jeg har læst, og er indforstået med jurhoods\'s brugeraftale og betingelser</string>
+</resources>

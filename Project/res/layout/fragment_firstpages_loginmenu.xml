@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framelayout_container"
+    tools:context=".AppStart" >
+    
+    <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+    
+        <ImageView 
+	        android:layout_width="511px"
+	        android:layout_height="124px"
+	        android:background="@drawable/img_mainmenudesc_511x124"
+	        android:tag="sw_sh_st_sl_glt"
+	        android:layout_gravity="left|top"
+	        android:layout_marginLeft="63px"
+	        android:layout_marginTop="426px">
+	    </ImageView>
+	    
+	    <ImageView 
+	        android:layout_width="577px"
+	        android:layout_height="72px"
+	        android:background="@drawable/btn_fblogin_577x72"
+	        android:tag="sw_sh_st_sl_glt"
+	        android:layout_gravity="left|top"
+	        android:layout_marginLeft="63px"
+	        android:layout_marginTop="600px">
+	    </ImageView>
+    
+	    <ImageButton 
+	        android:layout_width="577px"
+	        android:layout_height="72px"
+	        android:background="@drawable/btn_fblogin_577x72"
+	        android:tag="sw_sh_st_sl_glt"
+	        android:layout_gravity="left|top"
+	        android:layout_marginLeft="63px"
+	        android:layout_marginTop="600px" />
+	    
+	    <ImageButton 
+	        android:layout_width="577px"
+	        android:layout_height="72px"
+	        android:background="@drawable/btn_createaccount_577x72"
+	        android:tag="sw_sh_st_sl_glt"
+	        android:layout_gravity="left|top"
+	        android:id="@+id/imagebutton_create_account"
+	        android:layout_marginLeft="63px"
+	        android:layout_marginTop="700px" />
+	    
+	    <ImageButton 
+	        android:layout_width="577px"
+	        android:layout_height="72px"
+	        android:id="@+id/imagebutton_normal_login"
+	        android:background="@drawable/btn_login_577x72"
+	        android:tag="sw_sh_st_sl_glt"
+	        android:layout_gravity="left|top"
+	        android:layout_marginLeft="63px"
+	        android:layout_marginTop="800px" />
+    </FrameLayout>
+</FrameLayout>

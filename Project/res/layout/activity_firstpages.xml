@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splashscreen_640x1100"
+    android:id="@+id/framelayout_container"
+    tools:context=".AppStart" >
+
+    
+    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#b4153450">
+		    <ImageView 
+		        android:layout_width="519px"
+		        android:layout_height="97px"
+		        android:background="@drawable/img_logo_519x97"
+		        android:tag="sw_sh_st_sl_glt"
+		        android:layout_gravity="left|top"
+		        android:layout_marginLeft="63px"
+		        android:layout_marginTop="250px">
+		    </ImageView>
+		    
+		    <FrameLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:id = "@+id/framelayout_fragment_container"
+		        >
+		        
+		    </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

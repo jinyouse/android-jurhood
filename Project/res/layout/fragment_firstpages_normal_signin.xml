@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framelayout_container"
+    tools:context=".AppStart" >
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:background="@drawable/bg_topheader_640x100"
+        android:tag = "fw_sh">
+        <ImageButton
+            android:layout_width="88px"
+            android:layout_height="100px"
+            android:layout_gravity="left|top"
+            android:tag="sw_sh_glt"
+            android:id="@+id/imagebutton_back"
+            android:background="@drawable/btn_back_88x100" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="ww_wh_sfont_gc"
+            android:layout_gravity="center"
+            android:id="@+id/textview_logintitle"
+            android:textColor="@android:color/white"
+            android:textSize="38px"
+            android:text="Login" />
+        
+        <ImageButton
+            android:layout_width="88px"
+            android:layout_height="100px"
+            android:layout_gravity="right|top"
+            android:id="@+id/imagebutton_done"
+            android:tag="sw_sh_grt"
+            android:background="@drawable/btn_done_88x100" />
+    </FrameLayout>
+    <ImageView 
+        android:layout_width="529px"
+        android:layout_height="124px"
+        android:background="@drawable/img_normallogindesc_529x124"
+        android:tag="sw_sh_st_sl_glt"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="63px"
+        android:layout_marginTop="426px" />
+    
+    <EditText
+        android:layout_width="579px"
+        android:layout_height="79px"
+        android:tag="sw-sh-sl-st-glt"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="63px"
+        android:layout_marginTop="600px"
+        android:background="@drawable/bg_normalsiginin_textfield_579x79"
+        android:id="@+id/edittext_username"
+        android:hint="E-mail adresse"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textSize="34px" />
+    
+    <EditText
+        android:layout_width="579px"
+        android:layout_height="79px"
+        android:tag="sw-sh-sl-st-glt"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="63px"
+        android:layout_marginTop="700px"
+        android:background="@drawable/bg_normalsiginin_textfield_579x79"
+        android:id="@+id/edittext_password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textSize="34px" />
+            
+    <ImageButton
+        android:layout_width="43px"
+        android:layout_height="43px"
+        android:layout_marginLeft="63px"
+        android:layout_marginTop="850px"
+        android:layout_gravity="left|top"
+        android:tag="sw-sh-sl-st-glt"
+        android:id="@+id/imagebutton_save_login"
+        android:background="@drawable/btn_selector_check" />
+    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="ww_wh_sfont_glt_sl_st"
+            android:layout_marginLeft="150px"
+            android:layout_marginTop="850px"
+            android:layout_gravity="left|top"
+            android:id="@+id/textview_savelogin"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:text="Gem mine loginoplysninger" />
+    
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="ww_wh_sfont_glt_sl_st"
+            android:layout_marginLeft="150px"
+            android:layout_marginTop="900px"
+            android:layout_gravity="left|top"
+            android:id="@+id/button_forgotpassword"
+            android:textColor="#8fbcdb"
+            android:textSize="34px"
+            android:textStyle="italic"
+            android:background="@android:color/transparent"
+            android:text="Gem mine loginoplysninger" />
+</FrameLayout>

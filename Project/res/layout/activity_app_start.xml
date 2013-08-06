@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splashscreen_640x1100"
+    android:id="@+id/framelayout_container"
+    tools:context=".AppStart" >
+
+    <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="315px"
+        android:background="@drawable/bg_splashpanel_640x315"
+        android:tag="fw_sh_st_sl_glt"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="217px">
+    </FrameLayout>
+    
+</FrameLayout>

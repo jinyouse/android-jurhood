@@ -1,0 +1,429 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_mainmenu_640x1102"
+    android:id="@+id/framelayout_container"
+    tools:context=".activities.ActivityMainMenu" >
+    
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="212px"
+            android:layout_marginTop="0px"
+            android:tag="ww-fh-sl-st-glt"
+            android:background="@drawable/bg_ver_sep_line"
+            android:layout_gravity="left|top" />
+    
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="426px"
+            android:layout_marginTop="0px"
+            android:tag="ww-fh-sl-st-glt"
+            android:background="@drawable/bg_ver_sep_line"
+            android:layout_gravity="left|top" />
+    
+    
+    <!-- First Line -->
+    <FrameLayout
+        android:layout_width="214px"
+        android:layout_height="276px"
+        android:id="@+id/framelayout_item_01"
+        android:tag="sw-sh">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:tag="sw-sh"
+            android:background="@android:color/transparent"
+            android:id="@+id/imagebutton_item_01"
+            android:src="@drawable/icon_selector_mm_profile"
+            android:scaleType="centerInside" />
+        
+        <TextView
+            android:layout_width="212px"
+            android:layout_height="wrap_content"
+            android:tag="sw-wh-glt-st-sfont"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="200px"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:id="@+id/textview_item_note_01"
+            android:text="Min profil" />
+        
+    </FrameLayout>
+    
+    
+    <FrameLayout
+        android:layout_width="214px"
+        android:layout_height="276px"
+        android:layout_marginLeft="214px"
+        android:layout_marginTop="0px"
+        android:layout_gravity="left|top"
+        android:id="@+id/framelayout_item_02"
+        android:tag="sw-sh-sl-st-glt">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:background="@android:color/transparent"
+            android:tag="sw-sh"
+            android:id="@+id/imagebutton_item_02"
+            android:src="@drawable/icon_selector_mm_handshakes"
+            android:scaleType="centerInside" />
+        
+        <TextView
+            android:layout_width="212px"
+            android:layout_height="wrap_content"
+            android:tag="sw-wh-glt-st-sfont"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="200px"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:id="@+id/textview_item_note_02"
+            android:text="Handshakes" />
+        
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="212px"
+        android:layout_height="276px"
+        android:layout_marginLeft="428px"
+        android:layout_marginTop="0px"
+        android:layout_gravity="left|top"
+        android:id="@+id/framelayout_item_03"
+        android:tag="sw-sh-sl-st-glt">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:background="@android:color/transparent"
+            android:id="@+id/imagebutton_item_03"
+            android:tag="sw-sh"
+            android:src="@drawable/icon_selector_mm_messages"
+            android:scaleType="centerInside" />
+        
+        <TextView
+            android:layout_width="212px"
+            android:layout_height="wrap_content"
+            android:tag="sw-wh-glt-st-sfont"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="200px"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:id="@+id/textview_item_note_03"
+            android:text="Beskeder" />
+        
+    </FrameLayout>
+    
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="272px"
+            android:tag="fw-wh-sl-st-glt"
+            android:background="@drawable/bg_hor_sep_line"
+            android:layout_gravity="left|top" />
+    
+    <!-- Second line -->
+    <FrameLayout
+        android:layout_width="214px"
+        android:layout_height="276px"
+        android:layout_marginTop="276px"
+        android:layout_gravity="left|top"
+        android:id="@+id/framelayout_item_04"
+        android:tag="sw-sh-st-glt">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:tag="sw-sh"
+            android:background="@android:color/transparent"
+            android:id="@+id/imagebutton_item_04"
+            android:src="@drawable/icon_selector_mm_people"
+            android:scaleType="centerInside" />
+        
+        <TextView
+            android:layout_width="212px"
+            android:layout_height="wrap_content"
+            android:tag="sw-wh-glt-st-sfont"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="200px"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:id="@+id/textview_item_note_04"
+            android:text="People" />
+        
+    </FrameLayout>
+    
+    
+    <FrameLayout
+        android:layout_width="214px"
+        android:layout_height="276px"
+        android:layout_marginLeft="214px"
+        android:layout_marginTop="276px"
+        android:layout_gravity="left|top"
+        android:id="@+id/framelayout_item_05"
+        android:tag="sw-sh-sl-st-glt">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:background="@android:color/transparent"
+            android:tag="sw-sh"
+            android:id="@+id/imagebutton_item_05"
+            android:src="@drawable/icon_selector_mm_events"
+            android:scaleType="centerInside" />
+        
+        <TextView
+            android:layout_width="212px"
+            android:layout_height="wrap_content"
+            android:tag="sw-wh-glt-st-sfont"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="200px"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:id="@+id/textview_item_note_05"
+            android:text="Events" />
+        
+    </FrameLayout>
+    
+    
+    
+    
+    <FrameLayout
+        android:layout_width="212px"
+        android:layout_height="276px"
+        android:layout_marginLeft="428px"
+        android:layout_marginTop="276px"
+        android:layout_gravity="left|top"
+        android:id="@+id/framelayout_item_06"
+        android:tag="sw-sh-sl-st-glt">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:background="@android:color/transparent"
+            android:id="@+id/imagebutton_item_06"
+            android:tag="sw-sh"
+            android:src="@drawable/icon_selector_mm_group"
+            android:scaleType="centerInside" />
+        
+        <TextView
+            android:layout_width="212px"
+            android:layout_height="wrap_content"
+            android:tag="sw-wh-glt-st-sfont"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="200px"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:id="@+id/textview_item_note_06"
+            android:text="Grupper" />
+        
+    </FrameLayout>
+    
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="548px"
+            android:tag="fw-wh-sl-st-glt"
+            android:background="@drawable/bg_hor_sep_line"
+            android:layout_gravity="left|top" />
+    
+    <!-- Third line -->
+    <FrameLayout
+        android:layout_width="214px"
+        android:layout_height="276px"
+        android:layout_marginTop="552px"
+        android:layout_gravity="left|top"
+        android:id="@+id/framelayout_item_07"
+        android:tag="sw-sh-st-glt-sl">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:tag="sw-sh"
+            android:background="@android:color/transparent"
+            android:id="@+id/imagebutton_item_07"
+            android:src="@drawable/icon_selector_mm_sweet_deal"
+            android:scaleType="centerInside" />
+        
+        <TextView
+            android:layout_width="212px"
+            android:layout_height="wrap_content"
+            android:tag="sw-wh-glt-st-sfont"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="200px"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:id="@+id/textview_item_note_07"
+            android:text="Sweet Deals" />
+        
+    </FrameLayout>
+    
+    
+    <FrameLayout
+        android:layout_width="214px"
+        android:layout_height="276px"
+        android:layout_marginLeft="214px"
+        android:layout_marginTop="552px"
+        android:layout_gravity="left|top"
+        android:id="@+id/framelayout_item_08"
+        android:tag="sw-sh-sl-st-glt">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:background="@android:color/transparent"
+            android:tag="sw-sh"
+            android:id="@+id/imagebutton_item_08"
+            android:src="@drawable/icon_selector_mm_city_guides"
+            android:scaleType="centerInside" />
+        
+        <TextView
+            android:layout_width="212px"
+            android:layout_height="wrap_content"
+            android:tag="sw-wh-glt-st-sfont"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="200px"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:id="@+id/textview_item_note_08"
+            android:text="City Guides" />
+        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="212px"
+        android:layout_height="276px"
+        android:layout_marginLeft="428px"
+        android:layout_marginTop="552px"
+        android:layout_gravity="left|top"
+        android:id="@+id/framelayout_item_09"
+        android:tag="sw-sh-sl-st-glt">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:background="@android:color/transparent"
+            android:id="@+id/imagebutton_item_09"
+            android:tag="sw-sh"
+            android:src="@drawable/icon_selector_mm_group"
+            android:scaleType="centerInside" />
+        
+        <TextView
+            android:layout_width="212px"
+            android:layout_height="wrap_content"
+            android:tag="sw-wh-glt-st-sfont"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="200px"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:id="@+id/textview_item_note_09"
+            android:text="Notifikationer" />
+        
+    </FrameLayout>
+    
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="824px"
+            android:tag="fw-wh-sl-st-glt"
+            android:background="@drawable/bg_hor_sep_line"
+            android:layout_gravity="left|top" />
+    <!-- Fourth line -->
+    <FrameLayout
+        android:layout_width="214px"
+        android:layout_height="276px"
+        android:layout_marginTop="828px"
+        android:layout_gravity="left|top"
+        android:id="@+id/framelayout_item_10"
+        android:tag="sw-sh-st-glt-sl">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:tag="sw-sh"
+            android:background="@android:color/transparent"
+            android:id="@+id/imagebutton_item_10"
+            android:src="@drawable/icon_selector_mm_filters"
+            android:scaleType="centerInside" />
+        
+        <TextView
+            android:layout_width="212px"
+            android:layout_height="wrap_content"
+            android:tag="sw-wh-glt-st-sfont"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="200px"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:id="@+id/textview_item_note_10"
+            android:text="Søg" />
+        
+    </FrameLayout>
+    
+    
+    <FrameLayout
+        android:layout_width="214px"
+        android:layout_height="276px"
+        android:layout_marginLeft="214px"
+        android:layout_marginTop="828px"
+        android:layout_gravity="left|top"
+        android:tag="sw-sh-sl-st-glt">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:background="@android:color/transparent"
+            android:tag="sw-sh"
+            android:src="@drawable/img_logo_519x97"
+            android:scaleType="centerInside" />
+        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="212px"
+        android:layout_height="276px"
+        android:layout_marginLeft="428px"
+        android:layout_marginTop="828px"
+        android:layout_gravity="left|top"
+        android:id="@+id/framelayout_item_11"
+        android:tag="sw-sh-sl-st-glt">
+        
+        <ImageButton
+            android:layout_width="212px"
+            android:layout_height="200px"
+            android:background="@android:color/transparent"
+            android:id="@+id/imagebutton_item_09"
+            android:tag="sw-sh"
+            android:src="@drawable/icon_selector_mm_settings"
+            android:scaleType="centerInside" />
+        
+        <TextView
+            android:layout_width="212px"
+            android:layout_height="wrap_content"
+            android:tag="sw-wh-glt-st-sfont"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="200px"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="34px"
+            android:id="@+id/textview_item_note_11"
+            android:text="Settings" />
+        
+    </FrameLayout>
+    
+</FrameLayout>

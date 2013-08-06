@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framelayout_container"
+    tools:context=".AppStart" >
+    
+    <FrameLayout 
+        android:layout_width="128px"
+        android:layout_height="fill_parent"
+        android:tag="sw-fh" 
+        android:background="@drawable/btn_selector_tabbar"
+        android:id="@+id/framelayout_item_1">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerInside"
+            android:id="@+id/imageview_iconview_1" />
+    </FrameLayout>
+    
+    <FrameLayout 
+        android:layout_width="128px"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="128px"
+        android:tag="sw-fh-sl-glt" 
+        android:background="@drawable/btn_selector_tabbar"
+        android:id="@+id/framelayout_item_2">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerInside"
+            android:id="@+id/imageview_iconview_2" />
+    </FrameLayout>
+    
+    <FrameLayout 
+        android:layout_width="128px"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="256px"
+        android:tag="sw-fh-sl-glt" 
+        android:background="@drawable/btn_selector_tabbar"
+        android:id="@+id/framelayout_item_3">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerInside"
+            android:id="@+id/imageview_iconview_3" />
+    </FrameLayout>
+    
+    <FrameLayout 
+        android:layout_width="128px"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="384px"
+        android:tag="sw-fh-sl-glt" 
+        android:background="@drawable/btn_selector_tabbar"
+        android:id="@+id/framelayout_item_4">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerInside"
+            android:id="@+id/imageview_iconview_4" />
+    </FrameLayout>
+    
+    <FrameLayout 
+        android:layout_width="128px"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="512px"
+        android:tag="sw-fh-sl-glt" 
+        android:background="@drawable/btn_selector_tabbar"
+        android:id="@+id/framelayout_item_5">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_tabbar_goto_menu"
+            android:id="@+id/imageview_iconview_5" />
+    </FrameLayout>
+    
+</FrameLayout>
